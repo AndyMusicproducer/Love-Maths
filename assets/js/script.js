@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
-
+/** The main game "loop" */
 function runGame() {
     // create two random numbers between 1 and 25
     let num1 = Math.floor(Math.random() * 25) + 1;
